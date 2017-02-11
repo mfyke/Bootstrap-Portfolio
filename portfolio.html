@@ -1,43 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/additionalStyling.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body background="assets/images/concrete_seamless.png">
-<div class="navBar">
-	<div class="page">
-	<h1>Matt Fyke</h1>
-	<ul>
-		<a href="index.html"><li>About</li></a>
-		<a href="portfolio.html"><li style="border-left: 1px solid #cccccc; border-right: 1px solid #cccccc;">Portfolio</li></a>
-		<a href="contact.html"><li>Contact</li></a>
-	</ul>
-	</div>
-</div>
-<div class="page">
-<div class="content">
-	<h1>Portfolio</h1>
-	<a class="picLeft" href=#><img src="assets/images/placeholder1.jpg"></a>
-	<a class="picRight" href=#><img src="assets/images/placeholder2.jpg"></a><br>
-	<h3 class="textLeft">Hangman</h3>
-	<h3 class="textRight">RPG Game</h3><br>
-	<a class="picLeft" href=#><img src="assets/images/placeholder3.jpg"></a>
-	<a class="picRight" href=#><img src="assets/images/placeholder4.jpg"></a><br>
-	<h3 class="textLeft">Trivia Game</h3>
-	<h3 class="textRight">Rutgers Info Widget</h3><br>
-	<a class="picLeft" href=#><img src="assets/images/palceholder5.jpg"></a>
-	<a class="picRight" href=#><img src="assets/images/white.jpg"></a><br>
-	<h3 class="textLeft">Rock Paper Scissors</h3>
-</div>
-<div class="connect">
-	<h2>Connect with Me</h2>
-	<ul>
-		<li><a href="https://github.com/mfyke"><img src="assets/images/Github-icon.png"></a></li>
-		<li><a href="https://linkedin.com/mattfyke"><img src="assets/images/Linkedin-icon.png"></a></li>
-		<li><a href="http://stackoverflow.com/users/7407213/mfyke"><img src="assets/images/Stackoverflow-icon.png"></a></li>
-	</ul>	
-</div>
-</div>
+<div class="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <div class="row">
+            <h1 class="col-xs-12 col-sm-8 col-md-6 col-lg-5 header">Matt Fyke</h1>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6"> 
+          <div class="row">
+            <div class="col-sm-offset-4 col-sm-8 navigation">
+              <div class="navA"><a href="index.html">About</a></div>
+              <div style="border-left: 1px solid #ccc; border-right: 1px solid #ccc" class="navA"><a href="portfolio.html">Portfolio</a></div>
+              <div class="navA"><a href="contact.html">Contact</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="container">
+    <div class="col-xs-12 col-sm-8">
+      <div class ="content">
+          <h1>Portfolio</h1>
+          <a href="#" class = "leftPic col-xs-12 col-sm-6 col-md-12 col-lg-6"><img class = "img-responsive" src="assets/images/placeholder1.jpg"><h3 class ="leftH3">Hangman</h3></a>
+          <a href="#" class = "rightPic col-xs-12 col-sm-6 col-md-12 col-lg-6"><img class = "img-responsive" src="assets/images/placeholder2.jpg">  <h3 class ="rightH3">RPG Game</h3></a>
+          <a href="#" class = "leftPic col-xs-12 col-sm-6 col-md-12 col-lg-6"><img class = "img-responsive" src="assets/images/placeholder3.jpg"><h3 class = "leftH3">Trivia Game</h3></a>
+          <a href="#" class = "rightPic col-xs-12 col-sm-6 col-md-12 col-lg-6"><img class = "img-responsive" src="assets/images/placeholder4.jpg"><h3 class = "rightH3">Rutgers Info Widget</h3></a>
+          <a href="#" class = "leftPic col-xs-12 col-sm-6 col-md-12 col-lg-6"><img class = "img-responsive" src="assets/images/palceholder5.jpg"><h3 class = "leftH3">Rock Paper Scissors</h3>`</a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class ="connect">
+          <div class="row" style="border-bottom:1px solid #ccc">
+            <h2 class="col-xs-6 col-sm-12">Connect with Me</h2>
+          </div>
+          <div class="col-xs-6 col-sm-12" style="margin-top: 10px">
+            <div class="row">
+              <div class="col-xs-4"><a href="https://github.com/mfyke"><img class="img-responsive" src="assets/images/Github-icon.png" alt = "GitHub"></a></div>
+              <div class="col-xs-4"><a href="https://www.linkedin.com/mattfyke"><img class="img-responsive" src="assets/images/Linkedin-icon.png" alt = "LinkedIn"></a></div>
+              <div class="col-xs-4"><a href="http://stackoverflow.com/users/7407213/mfyke"><img class="img-responsive" src="assets/images/Stackoverflow-icon.png" alt = "Stack Overflow"></a></div>
+            </div>
+          </div>
+          </div>
+      </div>
+    </div>
+  </div>
 </body>
 <footer>&copy; Copyright 2017 Matt Fyke</footer>
 </html>
